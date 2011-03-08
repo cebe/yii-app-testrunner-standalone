@@ -1,0 +1,3 @@
+[submodule "app/commands/testRunner"]
+	path = app/commands/testRunner
+	url = https://github.com/cebe/yii-app-testrunner.git
