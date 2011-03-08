@@ -1,0 +1,8 @@
+# yii
+yii
+
+# logs and cache
+app/runtime
+
+# build directory
+build
