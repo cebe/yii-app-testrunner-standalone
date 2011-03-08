@@ -11,6 +11,7 @@ return array(
 	'commandMap' => array(
 		'tests'=>array(
 			'class'=>'application.commands.testRunner.TestrunnerCommand',
+			'baseAlias'=>'application.commands.testRunner',
 		),
 	),
 
