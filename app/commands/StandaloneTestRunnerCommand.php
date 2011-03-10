@@ -1,12 +1,8 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: cbrandt
- * Date: 08.03.2011
- * Time: 20:44
- * To change this template use File | Settings | File Templates.
- */
 
+/**
+ * @package commands
+ */
 class StandaloneTestRunnerCommand extends TestrunnerCommand
 {
 
