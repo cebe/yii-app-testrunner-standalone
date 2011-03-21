@@ -108,6 +108,13 @@
         </apply>
     </target>
 
+    <target name="sloccount">
+        <exec executable="/opt/sloccount-2.26/sloccount" output="${basedir}/build/logs/sloccount.sc">
+            <env key="PATH" path="${env.PATH}:/sbin:/bin:/usr/sbin:/usr/bin:/opt/sloccount-2.26" />
+            <arg line="--duplicates --wide --details app/commands/testRunner"/>
+        </exec>
+    </target>
+
     <target name="phpunit" depends="phpunit-unit,phpunit-functional" />
 
     <target name="phpunit-unit" depends="lint">
